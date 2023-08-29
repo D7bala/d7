@@ -159,3 +159,22 @@ footer{
     color: #fff;
     font-size: 20px;
 }
+
+
+.right-align {
+    text-align: right;
+    position: fixed;
+    bottom: 20px; /* Ajuste a distância do fundo conforme necessário */
+    right: 20px; 
+    
+}
+
+
+.chat a img {
+    transition: transform 0.3s ease-in-out; /* Adiciona transição suave */
+}
+
+.chat a img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse */
+}
+
